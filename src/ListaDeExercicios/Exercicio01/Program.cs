@@ -10,7 +10,17 @@
                 - Fórmula: Volume = Altura * Largura * Comprimento
                 - Exemplo de saída: O volume da caixa é 30 unidades cúbicas.*/
 
-            Console.WriteLine("Hello, World!");
+
+            Console.WriteLine("Vamos calcular o volume de caixa retangular");
+            Console.WriteLine("Informe o Altura: ");
+            double v1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe o Largura: ");
+            double v2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Informe o Comprimento: ");
+            double v3 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Caixa possui um volume de " + (v1 * v2 * v3).ToString("F2"));
+
         }
     }
 }
